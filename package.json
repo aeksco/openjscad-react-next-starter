@@ -1,0 +1,32 @@
+{
+  "name": "openjscad-react-next-starter",
+  "version": "0.1.0",
+  "description": "A web starter project with OpenJSCAD React, Next.js, TypeScript, TailwindCSS and Netlify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "author": "Alexander Schwartzberg",
+  "license": "MIT",
+  "dependencies": {
+    "@types/downloadjs": "^1.4.2",
+    "downloadjs": "^1.4.7",
+    "lodash.debounce": "^4.0.8",
+    "next": "^9.0.1",
+    "openjscad-react": "^0.0.1-canary-04",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "postcss-preset-env": "^6.7.0",
+    "typescript": "^3.5.3"
+  }
+}
