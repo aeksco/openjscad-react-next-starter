@@ -1,12 +1,12 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import { OpenJSCADProps } from "openjscad-react/dist";
+import { OpenJSCADProps } from "openjscad-react";
 import { FormGroup } from "../src/FormGroup";
 
 // Dynamic import
 const OpenJSCAD: React.ComponentType<
   OpenJSCADProps
-> = dynamic(() => import("openjscad-react/dist").then((mod) => mod.OpenJSCAD), {
+> = dynamic(() => import("openjscad-react").then((mod) => mod.OpenJSCAD), {
   ssr: false,
 });
 
