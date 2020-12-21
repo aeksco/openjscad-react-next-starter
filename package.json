@@ -12,16 +12,16 @@
   "author": "Alexander Schwartzberg",
   "license": "MIT",
   "dependencies": {
-    "@types/downloadjs": "^1.4.2",
     "downloadjs": "^1.4.7",
     "lodash.debounce": "^4.0.8",
     "next": "^9.0.1",
-    "openjscad-react": "^0.0.1-canary-04",
+    "openjscad-react": "^0.0.1-canary-06",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "tailwindcss": "^1.8.10"
   },
   "devDependencies": {
+    "@types/downloadjs": "^1.4.2",
     "@types/lodash.debounce": "^4.0.6",
     "@types/node": "^12.6.2",
     "@types/react": "^16.8.23",

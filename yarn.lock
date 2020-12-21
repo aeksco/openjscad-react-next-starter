@@ -4203,16 +4203,17 @@ onml@^0.4.1:
   dependencies:
     sax "^1.2.1"
 
-openjscad-react@^0.0.1-canary-04:
-  version "0.0.1-canary-04"
-  resolved "https://registry.yarnpkg.com/openjscad-react/-/openjscad-react-0.0.1-canary-04.tgz#e49b99cc5f269aa9643f8d5302805cfdc5454e5b"
-  integrity sha512-IhY7+gLtx4ROWEE4trSXAlqrqzuUjbDqP3526EPGEZb9hOVsTCxkBqWEp4X3ptkldKr208mYPBSYrYSsQmPWaw==
+openjscad-react@^0.0.1-canary-06:
+  version "0.0.1-canary-06"
+  resolved "https://registry.yarnpkg.com/openjscad-react/-/openjscad-react-0.0.1-canary-06.tgz#25e562531cbb1572e76694b021a129b5762a2962"
+  integrity sha512-gwMgWhozl/z9R1/e+byRQ2R/SNuyeF8T0OzbpXFOd8jw+KwokuS5EBnx6yIikJYz8ynKtbL9R+SUxbi2UBD0uA==
   dependencies:
     "@jscad/csg" "^0.7.0"
     "@jscad/stl-serializer" "^0.2.0"
     "@jscad/web" "^1.10.0"
     classnames "^2.2.6"
     copy-dir "^1.3.0"
+    lodash.debounce "^4.0.8"
 
 os-browserify@^0.3.0:
   version "0.3.0"

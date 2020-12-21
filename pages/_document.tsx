@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head>
           <title>OpenJSCAD React Next.js Starter</title>
         </Head>
-        <body className="bg-gray-200">
+        <body className="bg-gray-100">
           <Main />
           <NextScript />
         </body>

@@ -1,5 +1,5 @@
 import React from "react";
-import { PageHeader } from "../src/PageHeader";
+import { Navbar } from "../src/Navbar";
 import App from "next/app";
 import "../styles/index.css";
 
@@ -8,8 +8,8 @@ export default class extends App {
     const { Component, pageProps } = this.props;
     return (
       <React.Fragment>
-        <PageHeader />
-        <div className="container mx-auto">
+        <Navbar />
+        <div className="container mx-auto pt-10">
           <Component {...pageProps} />
         </div>
       </React.Fragment>
