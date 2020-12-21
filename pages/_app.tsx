@@ -9,7 +9,7 @@ export default class extends App {
     return (
       <React.Fragment>
         <Navbar />
-        <div className="container mx-auto pt-10">
+        <div className="container mx-auto pt-10 px-5">
           <Component {...pageProps} />
         </div>
       </React.Fragment>

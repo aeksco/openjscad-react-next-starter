@@ -28,8 +28,8 @@
 
 <div align="center">
   <h3>
-    <a href="https://aeksco.github.io/openjscad-react">
-      Website
+    <a href="https://openjscad-react-next-starter.netlify.app">
+      Demo
     </a>
     <span> | </span>
     <a href="https://aeksco.github.io/openjscad-react">
